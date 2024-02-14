@@ -10,7 +10,12 @@ Code for running MD simulations for XBB.1.5 RBD:ACE2
 
 * `01_input_files` - Contains AMBER input files for MD simulations.
 * `02_run_md` - Contains the python script used to run MD in OpenMM
-* `03_data` - Contains the trajectories (PDB files for each frame) and bash scripts for running MD
+* `03_data` - Contains the five trajectories (PDB files for each frame, saved every 1 ns) and bash scripts for running MD
+    * 0/ -- 928 frames
+    * 1/ -- 930 frames
+    * 2/ -- 925 frames
+    * 3/ -- 931 frames
+    * 4/ -- 933 frames
 
 ## Contributors
 
