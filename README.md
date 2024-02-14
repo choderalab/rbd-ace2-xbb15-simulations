@@ -1,6 +1,7 @@
 # rbd-ace2-xbb15-simulations
 
 Code for running MD simulations for XBB.1.5 RBD:ACE2
+Publication: XX
 
 ## License
 * This software is licensed under the [MIT license](https://opensource.org/licenses/MIT) - a copy of this license is provided as `SOFTWARE_LICENSE`
