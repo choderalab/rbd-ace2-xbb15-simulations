@@ -23,6 +23,6 @@ outdir=/data/chodera/zhangi/vir/v29/data/1/
 phase=complex
 
 source ~/.bashrc
-conda activate perses-paper7
+conda activate rbd-ace2
 
 python /data/chodera/zhangi/vir/v29/run_md/run_equilibration_long.py $outdir $phase --gentle

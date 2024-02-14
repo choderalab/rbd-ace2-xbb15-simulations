@@ -17,9 +17,9 @@ Code for running MD simulations for XBB.1.5 RBD:ACE2
 * Ivy Zhang
 
 ## Conda environment
-The environment file is `rbd-ace2-env.txt`. It can be used to create a new environment by:
+The environment file is `rbd-ace2.txt`. It can be used to create a new environment by:
 ```
 mamba create -n new-env
-mamba install --name rbd-ace2-env --file rbd-ace2-env.txt
+mamba install --name rbd-ace2 --file rbd-ace2.txt
 ```
 where new-env is an environment name of your choice.
