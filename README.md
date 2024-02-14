@@ -8,11 +8,18 @@ Code for running MD simulations for XBB.1.5 RBD:ACE2
 
 ## Manifest
 
-* `01_input_files` - Contains input files for MD simulations.
-* `02_run_md` - Contains the python scripts used to run MD
-* `03_data` - Contains the trajectories and bash scripts for running MD
+* `01_input_files` - Contains AMBER input files for MD simulations.
+* `02_run_md` - Contains the python script used to run MD
+* `03_data` - Contains the trajectories (PDB files for each frame) and bash scripts for running MD
 
 ## Contributors
 
 * Ivy Zhang
 
+## Conda environment
+The environment file is `rbd-ace2-env.txt`. It can be used to create a new environment by:
+```
+mamba create -n new-env
+mamba install --name rbd-ace2-env --file rbd-ace2-env.txt
+```
+where new-env is an environment name of your choice.
